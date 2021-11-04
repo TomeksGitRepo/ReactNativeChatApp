@@ -3,8 +3,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, Button, ScrollView } f
 
 import AsyncStorage from '@react-native-community/async-storage';
 
-import Logo from '../../assets/images/LoginScreen/logo-02.png'; //TODO change this
-
+import Logo from '../../assets/images/LoginScreen/logo-02.png'; 
 import image1 from '../../assets/images/LoadingScreen/1.png'
 import image2 from '../../assets/images/LoadingScreen/2.png'
 import image3 from '../../assets/images/LoadingScreen/3.png'

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity, TextInput, ImageBackground } from "react-native";
-import Logo from '../../assets/images/LoginScreen/logo-02.png'; //TODO change this
+import Logo from '../../assets/images/LoginScreen/logo-02.png'; 
 
 
 import backgroundImage from '../../assets/images/LoginScreen/ramka-02.png'

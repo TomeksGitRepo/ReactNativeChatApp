@@ -12,15 +12,15 @@ import AsyncStorage from "@react-native-community/async-storage"
 import serverAddress from '../utils/serverAddres';
 import axios from 'axios'
 
-import Logo from "../../assets/images/LoginScreen/logo-02.png"; //TODO change this
+import Logo from "../../assets/images/LoginScreen/logo-02.png";
 
 import UserPreviewContainer from '../components/UserPreviewContainer'
 import GroupsPreviewContainer from "../components/GroupsPreviewContainer";
 
 async function filterSingleChats(array) {
  let result = array.filter((item) => {
-    // //console.log('item in filterSingleChats: ', item)
-    // //console.log('item.isSingleChat in filterSingleChats: ', item.isSingleChat)
+    //console.log('item in filterSingleChats: ', item)
+    //console.log('item.isSingleChat in filterSingleChats: ', item.isSingleChat)
     return item.isSingleChat === true}
     )
 
